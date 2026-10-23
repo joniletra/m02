@@ -1,0 +1,58 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.container {
+    display: flex;
+    background-color: lightgray;
+    padding: 10px;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+.item {
+    background-color: steelblue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Layout 1 */
+.linha {
+    flex-direction: row;
+}
+
+/* Layout 2 */
+.coluna {
+    flex-direction: column;
+}
+
+/* Layout 3 */
+.centro {
+    justify-content: center;
+}
+
+/* Layout 4 */
+.alinhar {
+    align-items: center;
+    height: 150px;
+}
+
+/* Layout 5 */
+.flexivel {
+    flex-wrap: wrap;
+}
+
+.flexivel .item {
+    width: 100px;
+}
+
+.crescer {
+    flex-grow: 1;
+}
+
+.diminuir {
+    flex-shrink: 1;
+}
