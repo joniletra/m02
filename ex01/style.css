@@ -1,0 +1,39 @@
+
+/* Seletor de elemento */
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+/* Seletor de classe */
+.destaque {
+    color: blue;
+    font-weight: bold;
+}
+
+/* Seletor de ID */
+#nome {
+    border: 2px solid green;
+    padding: 5px;
+}
+
+/* Seletor descendente */
+nav a {
+    color: darkgreen;
+    margin-right: 15px;
+}
+
+/* Seletor de atributo */
+input[type="email"] {
+    background-color: lightyellow;
+}
+
+/* Pseudo-classe hover */
+nav a:hover {
+    color: red;
+}
+
+/* Pseudo-classe focus */
+input:focus {
+    background-color: lightblue;
+}
