@@ -1,0 +1,50 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f5f5f5;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid gray;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.botao {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.alerta {
+    background-color: lightyellow;
+    border: 1px solid orange;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.badge {
+    background-color: green;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+form {
+    background-color: white;
+    padding: 15px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+input {
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px;
+}
