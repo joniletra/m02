@@ -1,0 +1,103 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: darkblue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.inicio {
+    background-color: lightblue;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.botao {
+    display: inline-block;
+    background-color: darkblue;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.servicos {
+    padding: 20px;
+    text-align: center;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.card {
+    background-color: #eeeeee;
+    padding: 20px;
+    border: 1px solid gray;
+}
+
+.contactos {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Tablets */
+@media (min-width: 768px) {
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+/* Computadores */
+@media (min-width: 1024px) {
+    .cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .inicio {
+        padding: 80px 20px;
+    }
+}
+
+/* Ecrãs grandes */
+@media (min-width: 1440px) {
+    main {
+        max-width: 1200px;
+        margin: auto;
+    }
+}
